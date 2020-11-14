@@ -1,0 +1,39 @@
+.logo-web {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: bold;
+  color: #2196f3;
+}
+.logo-studio {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+.logo-studiotwo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.nav a {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+}
+.head-one {
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  color: white;
+}
+.order {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.button-order {
+  background: #2196f3;
+}
