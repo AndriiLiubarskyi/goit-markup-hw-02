@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+  font-style: normal;
+}
 .logo-web {
   font-family: Raleway;
   font-size: 26px;
@@ -22,11 +26,15 @@
   font-weight: 500;
   color: #212121;
 }
+.nav a:hover {
+  color: #2196f3;
+}
 .head-one {
   font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
   color: white;
+  background-color: #2f303a;
 }
 .order {
   font-family: Roboto;
@@ -73,12 +81,21 @@ h2 .headtwo {
   font-weight: 400;
   color: #ffffff;
 }
+.address-mail-tel {
+  opacity: 0.6;
+}
+.address-footer a:hover {
+  color: #2196f3;
+}
 .filter-portfolio button {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   color: #212121;
   background-color: #f5f4fa;
+}
+.filter-portfolio button:hover {
+  background-color: #2196f3;
 }
 .hide {
   display: none;
@@ -94,4 +111,11 @@ h2 .headtwo {
   font-size: 16px;
   font-weight: 400;
   color: #757575;
+}
+
+a:focus {
+  color: #2196f3;
+}
+footer {
+  background-color: #2f303a;
 }
