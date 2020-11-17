@@ -1,121 +1,149 @@
+:root {
+  --primary-text-color: #212121;
+  --logo-accent-header: #000000;
+  --accent-color: #2196f3;
+  --logo-accent-footer: #ffffff;
+  --secondary-text-color: #757575;
+  --contacts-color-footer: rgba(255, 255, 255, 0.6);
+}
+body {
+  background-color: var(--logo-accent-footer);
+  color: var(--logo-accent-header);
+  font-family: Roboto, sans-serif;
+}
 a {
   text-decoration: none;
   font-style: normal;
 }
-.logo-web {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: bold;
-  color: #2196f3;
-}
-.logo-studio {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: bold;
-  color: #000000;
-}
+.logo-web,
+.logo-studio,
 .logo-studiotwo {
   font-family: Raleway;
+}
+.logo-web {
   font-size: 26px;
-  font-weight: bold;
-  color: #ffffff;
+  font-weight: 700;
+  color: var(--accent-color);
+}
+.logo-studio {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--logo-accent-header);
+}
+.logo-studiotwo {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--logo-accent-footer);
 }
 .nav a {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
-  color: #212121;
+  color: var(--primary-text-color);
+}
+.nav-mail-tel a {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--secondary-text-color);
 }
 .nav a:hover {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+.nav-mail-tel a:hover {
+  color: var(--accent-color);
+}
+ul {
+  list-style: none;
+}
+nav .link-current {
+  color: var(--accent-color);
 }
 .head-one {
-  font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
   color: white;
   background-color: #2f303a;
+  line-height: 1.36;
 }
 .order {
-  font-family: Roboto;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
   color: white;
+  line-height: 1.88;
 }
 .button-order {
-  background: #2196f3;
+  background: var(--accent-color);
 }
 .specialty h3 {
-  font-family: Roboto;
   font-size: 14px;
-  font-weight: bold;
-  color: #212121;
+  font-weight: 700;
+  color: var(--primary-text-color);
 }
 .specialty p {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  color: #757575;
+  color: var(--secondary-text-color);
+  line-height: 1.71;
 }
 h2 .headtwo {
-  font-family: Roboto;
   font-size: 36px;
-  font-weight: bold;
-  color: #212121;
+  font-weight: 700;
+  color: var(--primary-text-color);
 }
 .people h3 {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .people p {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .address-footer a {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  color: #ffffff;
+  color: var(--logo-accent-footer);
+  line-height: 1.71;
 }
-.address-mail-tel {
-  opacity: 0.6;
+.address-footer .address-mail-tel {
+  color: var(--contacts-color-footer);
 }
 .address-footer a:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .filter-portfolio button {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  color: #212121;
+  color: var(--primary-text-color);
   background-color: #f5f4fa;
+  line-height: 1.63;
 }
 .filter-portfolio button:hover {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
+  color: var(--logo-accent-footer);
 }
 .hide {
   display: none;
 }
 .portf-portf h2 {
-  font-family: Roboto;
   font-size: 18px;
-  font-weight: bold;
-  color: #212121;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  line-height: 2;
 }
 .portf-portf p {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  color: #757575;
+  color: var(--secondary-text-color);
+  line-height: 1.88;
 }
 
 a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 footer {
   background-color: #2f303a;
+}
+.team {
+  background-color: #f5f4fa;
 }

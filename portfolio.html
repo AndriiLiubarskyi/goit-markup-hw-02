@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css"/>
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
@@ -23,7 +21,7 @@
                 </a>
             </li>
             <li>
-                <a href="./portfolio.html">
+                <a href="./portfolio.html" class="link-current">
                     Портфолио
                 </a>
             </li>
@@ -36,8 +34,7 @@
     </nav>
 
     <address>
-        <ul class="nav">
-
+        <ul class="nav-mail-tel">
             <li>
                 <a href="mailto:info@devstudio.com">
                     info@devstudio.com
@@ -52,64 +49,84 @@
     </address>
 </header>
 <main>
-    <h1 class="hide">Portfolio</h1>
-    <section class="filter-portfolio">
-        <ul>
-            <li><button type="button">Все</button></li>
-            <li><button type="button">Веб-сайты</button></li>
-            <li><button type="button">Приложения</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
-        </ul>
-    </section>
     <section>
-        <ul class="portf-portf">
-            <li>
-                <img src="./images/technocryak.jpg" alt="фото трёх сотрудников" width="370"/>
-                <h2>Технокряк</h2>
-                <p>Веб-сайт</p>
-            </li>
-            <li>
-                <img src="./images/posterno.jpg" alt="два баскетболиста в игре" width="370" />
-                <h2>Постер New Orlean vs Golden Star</h2>
-                <p>Дизайн</p>
-            </li>
-            <li>
-                <img src="./images/seefood.jpg" alt="эмблема ресторана seefood" width="370"/>
-                <h2>Ресторан Seafood</h2>
-                <p>Приложение</p>
-            </li>
-            <li>
-                <img src="./images/project-prime.jpg" alt="фото наушников" width="370"/>
-                <h2>Проект Prime</h2>
-                <p>Маркетинг</p>
-            </li>
-            <li>
-                <img src="./images/project-boxes.jpg" alt="изображение двух коробок" width="370"/>
-                <h2>Проект Boxes</h2>
-                <p>Приложение</p>
-            </li>
-            <li>
-                <img src="./images/inspiration.jpg" alt="фото монитора с картой мира" width="370"/>
-                <h2>Inspiration has no Borders</h2>
-                <p>Веб-сайт</p>
-            </li>
-            <li>
-                <img src="./images/lim-edit.jpg" alt="изображение раскрытой книги" width="370"/>
-                <h2>Издание Limited Edition</h2>
-                <p>Дизайн</p>
-            </li>
-            <li>
-                <img src="./images/project-lab.jpg" alt="фото бирки с надписью lab el tag" width="370"/>
-                <h2>Проект LAB</h2>
-                <p>Маркетинг</p>
-            </li>
-            <li>
-                <img src="./images/g-business.jpg" alt="фото ноутбука" width="370"/>
-                <h2>Growing Business</h2>
-                <p>Приложение</p>
-            </li>
-        </ul>
+        <h1 class="hide">Portfolio</h1>
+        <section class="filter-portfolio">
+            <ul>
+                <li><button type="button">Все</button></li>
+                <li><button type="button">Веб-сайты</button></li>
+                <li><button type="button">Приложения</button></li>
+                <li><button type="button">Дизайн</button></li>
+                <li><button type="button">Маркетинг</button></li>
+            </ul>
+        </section>
+        <section>
+            <ul class="portf-portf">
+                <li>
+                    <a href="#">
+                        <img src="./images/technocryak.jpg" alt="фото трёх сотрудников" width="370"/>
+                        <h2>Технокряк</h2>
+                        <p>Веб-сайт</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/posterno.jpg" alt="два баскетболиста в игре" width="370" />
+                        <h2>Постер New Orlean vs Golden Star</h2>
+                        <p>Дизайн</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/seefood.jpg" alt="эмблема ресторана seefood" width="370"/>
+                        <h2>Ресторан Seafood</h2>
+                        <p>Приложение</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/project-prime.jpg" alt="фото наушников" width="370"/>
+                        <h2>Проект Prime</h2>
+                        <p>Маркетинг</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/project-boxes.jpg" alt="изображение двух коробок" width="370"/>
+                        <h2>Проект Boxes</h2>
+                        <p>Приложение</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/inspiration.jpg" alt="фото монитора с картой мира" width="370"/>
+                        <h2>Inspiration has no Borders</h2>
+                        <p>Веб-сайт</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/lim-edit.jpg" alt="изображение раскрытой книги" width="370"/>
+                        <h2>Издание Limited Edition</h2>
+                        <p>Дизайн</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/project-lab.jpg" alt="фото бирки с надписью lab el tag" width="370"/>
+                        <h2>Проект LAB</h2>
+                        <p>Маркетинг</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/g-business.jpg" alt="фото ноутбука" width="370"/>
+                        <h2>Growing Business</h2>
+                        <p>Приложение</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
     </section>
 </main>
 <footer>
